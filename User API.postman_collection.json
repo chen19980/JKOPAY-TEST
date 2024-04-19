@@ -1,19 +1,18 @@
 {
 	"info": {
-		"_postman_id": "76d21d33-792c-4869-994e-f4ed2cd86292",
+		"_postman_id": "2f0917d6-7cd4-420e-b5a1-ef62d15f3394",
 		"name": "User API",
-		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
-		"_exporter_id": "20002738"
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
 	},
 	"item": [
 		{
-			"name": "http://localhost:8080/api/user",
+			"name": "Create User",
 			"request": {
 				"method": "POST",
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n    \"name\": \"first_name.last_name\",\r\n    \"job_title\": \"developer\",\r\n    \"communicate_information\": {\r\n        \"email\": \"first_name.last_name@gmail.com\",\r\n        \"mobile\": \"09xx-xxx-xxx\"\r\n    }\r\n}",
+					"raw": "{\r\n    \"firstName\": \"first_name\",\r\n    \"lastName\": \"last_name\",\r\n    \"jobTitle\": \"developer\",\r\n    \"mobile\": \"09xx-xxx-xxx\"\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -21,10 +20,13 @@
 					}
 				},
 				"url": {
-					"raw": "http://localhost:8080/api/user",
+					"raw": "http://34.133.166.66:8080/api/user",
 					"protocol": "http",
 					"host": [
-						"localhost"
+						"34",
+						"133",
+						"166",
+						"66"
 					],
 					"port": "8080",
 					"path": [
@@ -36,15 +38,18 @@
 			"response": []
 		},
 		{
-			"name": "http://localhost:8080/api/user",
+			"name": "Get User",
 			"request": {
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "http://localhost:8080/api/user",
+					"raw": "http://34.133.166.66:8080/api/user",
 					"protocol": "http",
 					"host": [
-						"localhost"
+						"34",
+						"133",
+						"166",
+						"66"
 					],
 					"port": "8080",
 					"path": [
@@ -56,13 +61,13 @@
 			"response": []
 		},
 		{
-			"name": "http://localhost:8080/api/user",
+			"name": "Update User",
 			"request": {
 				"method": "PUT",
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n    \"name\": \"first_name.last_name\",\r\n    \"job_title\": \"ops\",\r\n    \"communicate_information\": {\r\n        \"email\": \"first_name.last_name@gmail.com\",\r\n        \"mobile\": \"09xx-xxx-xxx\"\r\n    }\r\n}",
+					"raw": "{\r\n    \"firstName\": \"first_name\",\r\n    \"lastName\": \"last_name\",\r\n    \"jobTitle\": \"operator\",\r\n    \"mobile\": \"09oo-ooo-ooo\"\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -70,10 +75,13 @@
 					}
 				},
 				"url": {
-					"raw": "http://localhost:8080/api/user",
+					"raw": "http://34.133.166.66:8080/api/user",
 					"protocol": "http",
 					"host": [
-						"localhost"
+						"34",
+						"133",
+						"166",
+						"66"
 					],
 					"port": "8080",
 					"path": [
@@ -85,15 +93,18 @@
 			"response": []
 		},
 		{
-			"name": "http://localhost:8080/api/user",
+			"name": "Delete User",
 			"request": {
 				"method": "DELETE",
 				"header": [],
 				"url": {
-					"raw": "http://localhost:8080/api/user",
+					"raw": "http://34.133.166.66:8080/api/user",
 					"protocol": "http",
 					"host": [
-						"localhost"
+						"34",
+						"133",
+						"166",
+						"66"
 					],
 					"port": "8080",
 					"path": [
