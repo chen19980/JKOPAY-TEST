@@ -82,7 +82,7 @@ jobs:
     # Push the image to the docker registry
     - name: Publish
       run: |-
-        docker push registry.hub.docker.com/chen19980/jkopay/${{ env.IMAGE }}/latest
+        docker push registry.hub.docker.com/chen19980/jkopay/${{ env.IMAGE }}:latest
 
     # Set up kustomize
     - name: Set up Kustomize
