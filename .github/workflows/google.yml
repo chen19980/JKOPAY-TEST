@@ -67,8 +67,6 @@ jobs:
         location: ${{ env.GKE_ZONE }}
 
     # Build the Docker image
-    - name: Copy settings.xml
-      run: cp .github/settings.xml users/chen/.m2/settings.xml
     - name: Build with Maven
       run: mvn compile jib:build
       
