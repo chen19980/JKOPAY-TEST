@@ -80,7 +80,7 @@ jobs:
     # Push the Docker image to Google Artifact Registry
     - name: Publish
       run: |-
-        docker push "$GAR_LOCATION-docker.pkg.dev/$PROJECT_ID/$REPOSITORY/$IMAGE:latest"
+        docker push "registry.hub.docker.com/chen19980/jkopay/$IMAGE:latest"
     # Set up kustomize
     - name: Set up Kustomize
       run: |-
