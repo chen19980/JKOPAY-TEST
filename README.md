@@ -1,15 +1,21 @@
 # GitHub Action 測試 (打包成 image 上傳 Docker Hub) + GKE 測試 (建立叢集並部署)
 
 # Getting Started
+Use postman to Test
+
+create user : http://35.221.161.93:8080/user/create
+get user : http://35.221.161.93:8080/user/get
+update user : http://35.221.161.93:8080/user/update
+delete user : http://35.221.161.93:8080/user/delete 
 
 ### Create User
-![img.png](img.png)
+![create.png](create.png)
 
 ### Get User
-![img_1.png](img_1.png)
+![get.png](get.png)
 
 ### Update User
-![img_2.png](img_2.png)
+![update.png](update.png)
 
 ### Delete User
-![img_3.png](img_3.png)
+![delete.png](delete.png)
