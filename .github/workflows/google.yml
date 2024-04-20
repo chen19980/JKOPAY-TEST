@@ -79,10 +79,10 @@ jobs:
     - name: Build with Maven
       run: mvn compile jib:build
       
-    # Push the image to the docker registry
-    - name: Publish
-      run: |-
-        docker push registry.hub.docker.com/chen19980/jkopay
+#    # Push the image to the GKE registry
+#    - name: Publish
+#      run: |-
+#        docker push registry.hub.docker.com/chen19980/jkopay
 
     # Set up kustomize
     - name: Set up Kustomize
