@@ -25,7 +25,7 @@ env:
   GKE_ZONE: asia-east2   # TODO: update to cluster zone
   DEPLOYMENT_NAME: jkopay-test # TODO: update to deployment name
   REPOSITORY: jkopay # TODO: update to Artifact Registry docker repository
-  IMAGE: jkopay-test
+#  IMAGE: jkopay-test
 
 jobs:
   setup-build-publish-deploy:
@@ -80,7 +80,7 @@ jobs:
     # Push the Docker image to Google Artifact Registry
     - name: Publish
       run: |-
-        docker push "registry.hub.docker.com/chen19980/jkopay/$IMAGE:latest"
+        docker push "registry.hub.docker.com/chen19980/jkopay/latest"
     # Set up kustomize
     - name: Set up Kustomize
       run: |-
