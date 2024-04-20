@@ -5,7 +5,7 @@ metadata:
 spec:
   selector:
     matchLabels:
-      type: jkopay-test-pod
+      app: jkopay-test-pod
   replicas: 2
   strategy:
     type: RollingUpdate
