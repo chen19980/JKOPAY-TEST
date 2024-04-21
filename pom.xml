@@ -47,7 +47,7 @@
                 <version>3.2.1</version>
                 <configuration>
                     <to>
-                        <image>registry.hub.docker.com/chen19980/jkopay</image>
+                        <image>registry.hub.docker.com/chen19980/jkopay:v1</image>
                     </to>
                     <!-- 經測試，預設 image 為 jdk 11，故指定 jdk 17 -->
                     <from>
