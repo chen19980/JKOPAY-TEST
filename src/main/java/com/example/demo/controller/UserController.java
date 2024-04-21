@@ -39,7 +39,7 @@ public class UserController {
     @DeleteMapping("/delete")
     public ResponseEntity<String> deleteUser() {
         userService.deleteUser();
-        return new ResponseEntity<>("User資料刪除成功！", HttpStatus.OK);
+        return new ResponseEntity<>("刪除成功！", HttpStatus.OK);
     }
 
 }
