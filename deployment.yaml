@@ -19,7 +19,7 @@ spec:
     spec:
       containers:
         - name: jkopay-test
-          image: registry.hub.docker.com/chen19980/jkopay:v1
+          image: registry.hub.docker.com/chen19980/jkopay:latest
           imagePullPolicy: Always
           ports:
             - name: http
