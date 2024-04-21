@@ -21,4 +21,4 @@ delete user : http://35.221.161.93:8080/user/delete
 ![update.png](update.png)
 
 ### Delete User
-![delete.png](delete.png)
+![deleteuser.png](deleteuser.png)
